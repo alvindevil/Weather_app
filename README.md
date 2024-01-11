@@ -1,16 +1,14 @@
 # Weather_app
 <html>
-  <head> </head>
+  <head></head>
   <body>
     <h3> Demo:  </h3>
-    <div style="display:block, width:200px;">
-      <img src="images/Demo_img.png">
-    <video width="320" height="240" autoplay>
-      <source src="images/weather_app_demo_video.mp4" type="video/mp4">
-      <source src="images/weather_app_demo_video.mp4" type="video/ogg">
-      Your browser does not support the video tag.
-    </video>
+    <div style="display:block; width:200px;">
+      <a href="images/weather_app_demo_video.mp4">
+        <img src="images/Demo_img.png" alt="Demo Video" width="320" height="240">
+      </a>
     </div>
   </body>
 </html>
+
 
