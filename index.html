@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-1">
+
+      <!--- Header section -->
+        <div class="weather-card">
+
+          <div class="header">
+            <div class="search">
+              <input id="input_search" type="text" placeholder="Search">
+            </div>
+            <button class="search-btn" id="search_btn">
+              <img class="search-icon" 
+              id="search_icon" alt="" 
+              src="./images/Search-Icon.png"/>
+            </button>
+          </div>
+      
+          <!-- Hero section -->
+          <div class="hero">
+            <img class="weather-icon" alt="" src="./images/clear.png" />
+            <div class="temp-data">
+              <p class="temp"> Temp Value</p>
+              <p class="city"> City</p>
+            </div>
+          </div>
+
+          <!--- Footer section -->
+          <div class="footer">
+
+            <div class="main-data" >
+              <img src="./images/humidity_icon.png">
+              <div>
+                <p class="humidity">int%</p>
+                <p> Humidity</p>
+              </div>
+            </div>
+            
+            <div class="main-data">
+              <img src="./images/wind_icon.png">
+              <div>
+                <p class="wind">int_m/s</p>
+                <p>Wind Speed</p>
+              </div>
+            </div>
+
+            <div class="main-data" >
+              <img src="./images/feels_like_icon.png">
+              <div>
+                <p class="feels_like">_____°C</p>
+                <p> Feels Like</p>
+              </div>
+            </div>
+
+            <div class="main-data">
+              <img src="./images/preassure_icon2.png">
+              <div>
+                <p class="preassure">____ pa</p>
+                <p>Preassure</p>
+              </div>
+            </div>
+
+          </div>
+        
+        </div>
+      
+    </div>
+  </body>
+  <script src="script.js">
+
+  </script>
+</html>
